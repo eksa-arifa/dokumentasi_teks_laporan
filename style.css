@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  width: 100%;
+  background: crimson;
+}
+.navbar .wrapper{
+  padding: 10px 15px;
+}
+.navbar .wrapper .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.body{
+  width: 100%;
+  padding: 15px 10px;
+}
+.body .title{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.body .profile{
+  padding: 5px;
+}
+.body .profile .nama,
+.body .profile .kelas,
+.body .profile .no{
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.test{
+  margin: 15px 0;
+}
+.test .gambar img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.akhiran .link-web{
+  margin: 20px 0;
+  font-weight: 500;
+}
+.akhiran .link-web a{
+  text-decoration: none;
+  color: crimson;
+}
+.akhiran{
+  margin: 20px 0;
+}
+
+footer{
+  width: 100%;
+  padding: 20px 15px;
+  background: crimson;
+}
+footer .tulisan{
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.bawah{
+  border-bottom: 2px solid #808080;
+  padding-bottom: 10px;
+}
+.info{
+  font-weight: 600;
+}
